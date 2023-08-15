@@ -1,0 +1,35 @@
+@import '../abstract/variaveis';
+
+.pedra{
+    display: flex;
+    align-items: center;
+    width: auto;
+    justify-content: center;
+    margin-top: 40px;
+    .img-pedra{
+        img{
+            width: auto;
+        }
+    }
+    .compre{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        text-align: center;
+        background-color: $cor-terciaria;
+        padding: 2rem;
+        border-radius: 50px;
+        gap: 10px;
+        color: $cor-primaria;
+        h3{
+            font-size: $tamanho-do-texto;
+            color: $cor-secundaria;
+        }
+        h4{
+            font-size: $tamanho-do-texto/1.7;
+        }
+        p{
+            font-size: $tamanho-do-texto/3;
+        }
+    }
+}
